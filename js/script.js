@@ -25,9 +25,9 @@ jQuery(document).ready(function() {
 	jQuery(window).scroll(function() {    
 		var scroll = jQuery(window).scrollTop();
 		if (scroll > 0) {
-			jQuery(".header-main").addClass("bg-white shadow-sm dark-header");
+			jQuery(".header-main").addClass("shadow-sm dark-header");
 		} else {
-			jQuery(".header-main").removeClass("bg-white shadow-sm dark-header");
+			jQuery(".header-main").removeClass("shadow-sm dark-header");
 		}
 	});
 });

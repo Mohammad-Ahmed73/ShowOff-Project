@@ -1,344 +1,231 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-	<!-- Bootstrap 5 File Link-->
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <!-- Bootstrap 5 File Link-->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
 
-	<!-- Slick Slider Cdn Link -->
-	<link rel="stylesheet" href="css/slick.min.css" />
+    <!-- Slick Slider Cdn Link -->
+    <link rel="stylesheet" href="css/slick.min.css" />
 
-	<!-- Style Css File -->
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Style Css File -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
 
-	<!-- AOS Animation -->
-	<link href="css/aos.css" rel="stylesheet">
+    <!-- AOS Animation -->
+    <link href="css/aos.css" rel="stylesheet" />
 
-	<title>Home Page</title>
-</head>
-<body class="home">
-	<!-- Header Start -->
-	<header class="header-main py-4 py-lg-5 position-fixed start-0 top-0 w-100">
-		<div class="container-lg">
-			<nav class="navbar navbar-expand-lg p-0">
-				<a class="navbar-brand p-0" href="index.html">
-					<img src="image/logo.png" class="w-100">
-				</a>
-				<button class="navbar-toggler fs-1 fw-normal border-0 py-2 px-3 position-relative" type="button" data-bs-toggle="collapse" data-bs-target="#mobile-toggle" aria-controls="mobile-toggle" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-bars humburger-icon"></i>
-                    <i class="fas fa-times cross-icon position-absolute"></i>
-                </button>
-				<div class="collapse navbar-collapse justify-content-end" id="mobile-toggle">
-					<div class="navbar-nav">
-						<a class="nav-link paragraph-text px-0 pb-0 fw-500" aria-current="page" href="#">About Us</a>
-						<a class="nav-link paragraph-text px-0 pb-0 fw-500" href="#">Privacy Policy</a>
-						<a class="nav-link paragraph-text px-0 pb-0 fw-500" href="terms-and-conditions.html">Terms & Conditions</a>
-					</div>
-				</div>
-			</nav>
-		</div>
-	</header>
-	<!-- Header End -->
+    <title>Home Page</title>
+  </head>
+  <body class="home">
+    <!-- Header Start -->
+    <header class="header-main py-4 py-lg-5 position-fixed start-0 top-0 w-100">
+      <div class="container-lg">
+        <nav class="navbar navbar-expand-lg p-0">
+          <a class="navbar-brand p-0" href="index.html">
+            <img src="image/logo.svg" class="w-100" />
+          </a>
+          <button
+            class="navbar-toggler fs-1 fw-normal border-0 py-2 px-3 position-relative"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mobile-toggle"
+            aria-controls="mobile-toggle"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars humburger-icon"></i>
+            <i class="fas fa-times cross-icon position-absolute"></i>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="mobile-toggle"
+          >
+            <div class="navbar-nav">
+              <a
+                class="nav-link paragraph-text px-0 pb-0 fw-500"
+                aria-current="page"
+                href="#"
+                >About Us</a
+              >
+              <a class="nav-link paragraph-text px-0 pb-0 fw-500" href="#"
+                >Privacy Policy</a
+              >
+              <a
+                class="nav-link paragraph-text px-0 pb-0 fw-500"
+                href="terms-and-conditions.html"
+                >Terms & Conditions</a
+              >
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- Header End -->
 
-	<section class="banner-main py-5 position-relative z-index-0">
-		<div class="header-fixed-space"></div>
-		<div class="container-lg">
-			<div class="row align-items-center justify-content-center">
-				<div class="col-lg-6 mb-lg-0 mb-5 ps-md-4 ps-3">
-					<div class="banner-content w-100 p-4 ps-0 mx-auto mx-lg-0">
-						<div class="banner-content-inner position-relative bg-white" 
-						data-aos="fade-right"
-						data-aos-offset="500"
-     					data-aos-duration="500"
-						>
-							<h2 class="head-h2 fw-bold text-uppercase dark-red-color mb-3">
-								Your next car is here! Discover a new Immersive Experience
-							</h2>
-							<p class="paragraph-text dark-gray-color fw-normal mb-3">
-								At Show Off, we strive for efficiency and interests on our users. Considering the interests of our users , we have built the same app twice to cater for Android and iOS, so we solve that with cross-platform development.
-							</p>
-							<h4 class="head-h4 mb-4">
-								Download App Now
-							</h4>
-							<div class="app-logo">
-								<a href="#" class="d-inline-block me-3 me-lg-4 mb-3 w-100">
-									<img src="image/google-play.png" class="w-100">
-								</a>
-								<a href="#" class="d-inline-block me-3 me-lg-4 w-100 mb-3">
-									<img src="image/app-store.png" class="w-100">
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 text-center">
-					<div class="banner-image">
-						<img src="image/banner-image.png" class="w-100"
-						data-aos="zoom-in"
-						data-aos-offset="500"
-		     			data-aos-duration="500"
-						>
-					</div>
+    <section
+      class="banner-main py-5 d-flex align-items-center justify-content-center"
+    >
+      <div class="container-lg">
+        <div class="content text-center w-100 mx-auto">
+          <h4 class="head-h4 dark-red-color fw-600 mb-3">US Government</h4>
+          <h1 class="head-h1 text-gradient fw-800 mb-4">
+            IT Cyber Security Company
+          </h1>
+          <h6 class="head-h6 fw-normal white-90">
+            In today's interconnected digital landscape, the security of
+            sensitive information and systems has become paramount.
+            Cybersecurity, fortified by the power of Artificial Intelligence
+            (AI) and Machine Learning (ML).
+          </h6>
+        </div>
+      </div>
+    </section>
+
+    <section class="our-partners">
+      <div class="container-lg">
+        <div class="inner-container">
+          <div class="content text-center">
+            <h5 class="head-h5 fw-600 dark-red-color mb-3">Our Partners</h5>
+            <h3 class="head-h3 text-gradient mb-3 fw-800">
+              Vast Partner Ecosystem with You at the Center
+            </h3>
+            <p class="paragraph-text white-90">
+              We are the partner of choice for 450+ leading technology vendors.
+              These long-term relationships coupled with our comprehensive
+              capabilities and deep product knowledge enable us to create
+              powerful software-enabled solutions that unlock your full
+              potential.
+            </p>
+          </div>
+          <div class="our-partner-slider">
+            <div class="slider-item">
+              <figure class="image mb-0">
+                <img src="" alt="" />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="our-services">
+      <div class="container-lg">
+        <div class="content text-center">
+          <h5 class="head-h5 fw-600 dark-red-color mb-3">Our Services</h5>
+          <h3 class="head-h3 text-gradient mb-3 fw-800">
+            Combining AI and ML Technologies
+          </h3>
+          <p class="paragraph-text white-90">
+            This innovative synergy empowers cybersecurity professionals to stay
+            ahead of cybercriminals and protect data, systems, and networks
+            effectively.
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="content-inner">
+              <div class="icon"></div>
+              <h4 class="head-h4 text-gradient fw-bold mb-4">
+                Professional Cyber-Security Services
+              </h4>
+              <ul class="list-unstyled">
+                <li>SOC 24/7</li>
+                <li>Penetration Testing</li>
+                <li>Post-Remediation Services</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="our-offices">
+      <div class="container-lg">
+        <div class="content text-center">
+          <h5 class="head-h5 fw-600 dark-red-color mb-3">Our Offices</h5>
+          <h3 class="head-h3 text-gradient mb-3 fw-800">
+            We’re Here to Assist You
+          </h3>
+          <p class="paragraph-text white-90">
+            Our dedicated team is eager to answer your questions, address your
+            concerns, and provide the support you need.
+          </p>
+        </div>
+		<div class="office-address-list w-100 mx-auto">
+			<div class="col-lg-3 col-md-4 col-sm-6">
+				<div class="address-box text-center">
+					<h6 class="head-h6 text-gradient fw-500 mb-0">Washington, DC</h6>
 				</div>
 			</div>
 		</div>
-	</section>
+      </div>
+    </section>
 
-	<section class="aboutus-section py-5 my-0 my-lg-5">
-		<div class="container-lg">
-			<div class="content mb-5 pb-0 pb-md-3 pb-lg-5 text-center"
-				data-aos="zoom-in"
-				data-aos-offset="500"
-     			data-aos-duration="500"
-			>
-				<h1 class="head-h1 black-color fw-bold mb-3">
-					About Us
-				</h1>
-				<p class="paragraph-text dark-gray-color fw-normal mb-0">
-					Your own luxury CAR showroom! <br>
-					Show Off is dedicated to showcasing your car in a space designed just for it
-				</p>
-			</div>
-			<div class="row justify-content-center">
-				<div class="col-lg-6 mb-lg-0 mb-5">
-					<div class="aboutus-image text-center d-flex align-items-center justify-content-center position-relative z-index-0">
-						<img src="image/aboutus-image.png" class="w-100"
-						data-aos="zoom-in"
-						data-aos-offset="500"
-		     			data-aos-duration="500"
-						>
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<h3 class="head-h3 fw-600 black-color mb-3">
-						Shows Off Yours <br>
-						Premium Cars
-					</h3>
-					<p class="text dark-gray-color fw-normal mb-3">
-						Show Off app is a new concept aimed toward car lovers and enthusiasts who go the extra mile to appreciate and comprehend automobile qualities. A smooth platform to show off luxury premium cars under a single head with the best selection of quality premium cars  along with their features to better serve our users and assure their satisfaction. 
-					</p>
-				</div>
-			</div>
-		</div>
-	</section>
+    <section class="with-us-section">
+      <div class="container-lg">
+        <div class="row">
+          <div class="col-md-6">
+            <h2 class="head-h2 text-gradient fw-bold mb-3">
+              Interesting Collaboration With Us?
+            </h2>
+            <p class="text-paragraph white-90 fw-normal mb-0">
+              Our dedicated team is eager to answer your questions, address your
+              concerns.
+            </p>
+            <form action="">
+              <div class="input-field">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Your Email Address"
+                />
+              </div>
+              <div class="submit-btn">
+                <input type="submit" value="Submit" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
 
-	<section class="app-features py-5">
-		<div class="container-lg">
-			<div class="content mb-5 pb-0 pb-md-3 pb-lg-5 text-center"
-				data-aos="zoom-in"
-				data-aos-offset="500"
-     			data-aos-duration="500"
-			>
-				<h1 class="head-h1 white-color fw-bold mb-4">
-					App Features
-				</h1>
-				<p class="paragraph-text white-color fw-normal mb-0 mx-auto w-100">
-					Below are the features of Show Off mobile app that are well considered to align with the needs & interests of premium car enthusiasts
-				</p>
-			</div>
-			<div class="row justify-content-center">
-				<div class="col-md-4">
-					<div class="app-features-items my-4 text-center">
-						<img src="image/easy-signup-icon.png" class="w-100 mb-3">
-						<h4 class="head-h4 white-color mb-3 text-uppercase fw-600">Easy Signups</h4>
-						<p class="paragraph-text fw-normal white-color mb-0">We have taken the best mobile app features into in-depth consideration to integrate an app</p>
-					</div>
-				</div>
-			</div>
-			<div class="row justify-content-center">
-				<div class="col-md-4 d-flex flex-wrap">
-					<div class="app-features-items my-4 text-center text-md-end">
-						<img src="image/simplicity.png" class="w-100 mb-3">
-						<h4 class="head-h4 white-color mb-3 text-uppercase fw-600">Simplicity</h4>
-						<p class="paragraph-text fw-normal white-color mb-0">With the short attention spans of users, we have made the app way too simple, with quick image uploads</p>
-					</div>
-					<div class="app-features-items my-4 text-center text-md-end">
-						<img src="image/responsive-interface-icon.png" class="w-100 mb-3">
-						<h4 class="head-h4 white-color mb-3 text-uppercase fw-600">Responsive Interface</h4>
-						<p class="paragraph-text fw-normal white-color mb-0">Show Off App has a user-friendly interface, responsive design clear buttons to signup, sign in, create a profile</p>
-					</div>
-				</div>
-				<div class="col-md-4 text-center my-3 my-md-0 d-flex flex-wrap align-items-center justify-content-center order-1 order-md-0">
-					<img src="image/app-features-image.png" class="w-100 app-features-image"
-					data-aos="zoom-in"
-					data-aos-offset="500"
-	     			data-aos-duration="500"
-					>
-				</div>
-				<div class="col-md-4 d-flex flex-wrap">
-					<div class="app-features-items my-4 text-center text-md-start">
-						<img src="image/socail-media-integration-icon.png" class="w-100 mb-3">
-						<h4 class="head-h4 white-color mb-3 text-uppercase fw-600">Social Media Integration</h4>
-						<p class="paragraph-text fw-normal white-color mb-0">Making social media integration is the key here with social sharing buttons directly at the side of every app page.</p>
-					</div>
-					<div class="app-features-items my-4 text-center text-md-start">
-						<img src="image/app-contest-icon.png" class="w-100 mb-3">
-						<h4 class="head-h4 white-color mb-3 text-uppercase fw-600">App Contest</h4>
-						<p class="paragraph-text fw-normal white-color mb-0">The users can upload the images and participate in the contest. Reaping the advantage of having social media</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+    <!-- Footer Start -->
+    <footer class="footer-main py-4">
+      <div class="container-lg">
+        <div class="copyright text-center">
+          <p class="text white-60 fw-normal mb-0">
+            © Sand Point Cyber 2023. All Rights Reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
 
-	<section class="app-screenshots py-5 my-0 my-lg-5">
-		<div class="container-lg pb-5 pb-md-0">
-			<div class="content mb-5 pb-0 pb-md-3 pb-lg-5 text-center"
-				data-aos="zoom-in"
-				data-aos-offset="500"
-     			data-aos-duration="500"
-			>
-				<h1 class="head-h1 black-color fw-bold mb-3">
-					App Screenshots
-				</h1>
-			</div>
-			<div class="slider position-relative">
-				<div class="slider-arrows mt-3 mt-md-0 position-absolute d-flex justify-content-between w-100"></div>
-				<div class="app-screenshots-slider">
-					<div class="screenshots-image">
-						<img src="image/screenshot-1.png" class="w-100">
-					</div>
-					<div class="screenshots-image">
-						<img src="image/screenshot-1.png" class="w-100">
-					</div>
-					<div class="screenshots-image">
-						<img src="image/screenshot-1.png" class="w-100">
-					</div>
-					<div class="screenshots-image">
-						<img src="image/screenshot-1.png" class="w-100">
-					</div> 
-					<div class="screenshots-image">
-						<img src="image/screenshot-1.png" class="w-100">
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="download-app-section py-5 my-0 my-lg-5">
-		<div class="container-lg">
-			<div class="row">
-				<div class="col-lg-6 mb-lg-0 mb-5">
-					<h3 class="head-h3 black-color fw-bold text-uppercase mb-3 mb-md-4 mb-lg-5"
-						data-aos="fade-right"
-						data-aos-offset="500"
-     					data-aos-duration="500"
-					>Download App Now</h3>
-					<p class="paragraph-text dark-gray-color fw-normal mb-3 mb-md-4 mb-lg-5 w-100"
-						data-aos="fade-right"
-						data-aos-offset="500"
-     					data-aos-duration="500"
-					>
-						In our vision, it’s all about the experience. Your car should get just as much attention as your property and its design, and even contribute to its aesthetic experience creating a world of yours.
-					</p>
-					<div class="app-logo">
-						<a href="#" class="d-inline-block me-3 me-lg-4 mb-3 w-100">
-							<img src="image/google-play.png" class="w-100">
-						</a>
-						<a href="#" class="d-inline-block me-3 me-lg-4 w-100 mb-3">
-							<img src="image/app-store.png" class="w-100">
-						</a>
-					</div>
-				</div>
-				<div class="col-lg-6 text-center">
-					<img src="image/download-app-image.png" 
-					data-aos="zoom-in"
-					data-aos-offset="500"
-     				data-aos-duration="500"
-					>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- Footer Start -->
-	<footer class="footer-main py-5">
-		<div class="container-lg">
-			<div class="footer-logo mb-5 text-center text-md-start">
-				<img src="image/footer-logo.png" class="w-100">
-			</div>
-			<div class="row align-items-center">
-				<div class="col-lg-7 col-md-6">
-					<ul class="footer-menu p-0 m-0 text-center text-md-start">
-						<li class="d-sm-inline-block d-block list-unstyled me-sm-5 me-0 mb-3">
-							<a href="#" class="text-white head-h4 fw-500 text-decoration-none">
-								Terms & Conditions
-							</a>
-						</li>
-						<li class="d-sm-inline-block d-block list-unstyled me-sm-5 me-0 mb-3">
-							<a href="#" class="text-white head-h4 fw-500 text-decoration-none">
-								Privacy Policy
-							</a>
-						</li>
-					</ul>
-				</div>
-				<div class="col-lg-5 col-md-6 text-md-end text-center">
-					<ul class="socail-media-icons p-0 m-0">
-						<li class="d-inline-block">
-							<a href="#">
-								<img src="image/facebook.png">
-							</a>
-						</li>
-						<li class="d-inline-block">
-							<a href="#">
-								<img src="image/twitter.png">
-							</a>
-						</li>
-						<li class="d-inline-block">
-							<a href="#">
-								<img src="image/instagram.png">
-							</a>
-						</li>
-						<li class="d-inline-block">
-							<a href="#">
-								<img src="image/linkedin.png">
-							</a>
-						</li>
-						<li class="d-inline-block">
-							<a href="#">
-								<img src="image/youtube.png">
-							</a>
-						</li>
-						<li class="d-inline-block">
-							<a href="#">
-								<img src="image/pinterest.png">
-							</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<div class="copyright mt-4 text-center">
-				<p class="text-white paragraph-text fw-normal mb-0">
-					<img src="image/copyright-icon.png" class="d-inline-block align-bottom me-1 me-md-2">
-					Copyright 2022 .Show Off. All Right Reserved.
-				</p>
-			</div>
-		</div>
-	</footer>
-	<!-- Footer End -->
-
-
-	 <!-- Bottom To Top Scroll Start -->
+    <!-- Bottom To Top Scroll Start -->
     <div id="scrollToTop">
-        <i class="fas fa-angle-up"></i>
+      <i class="fas fa-angle-up"></i>
     </div>
     <!-- Bottom To Top Scroll End -->
 
-	<!-- Bootstrap 5 File Link-->
-	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap 5 File Link-->
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
 
-	<!-- Jquery JS Link -->
-	<script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- Jquery JS Link -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
 
-	<!-- Slick Slider Cdn Link -->
-	<script src="js/slick.min.js"></script>
+    <!-- Slick Slider Cdn Link -->
+    <script src="js/slick.min.js"></script>
 
-	<!-- AOS Animation -->
-	<script src="js/aos.js"></script>
+    <!-- AOS Animation -->
+    <script src="js/aos.js"></script>
 
-	<script type="text/javascript" src="js/script.js"></script>
-</body>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
 </html>
